@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+* {
+  box-sizing:border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

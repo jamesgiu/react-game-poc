@@ -1,0 +1,9 @@
+.map {
+    image-rendering: pixelated;
+    background-image: url("resources/map.png");
+    background-size: 100%;
+    /* Size of the map, 13 cells */
+    width: calc(13 * var(--grid-cell));
+    height: calc(10 * var(--grid-cell));
+    position: relative;
+}
